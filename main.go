@@ -8,8 +8,8 @@ import (
 	"os"
 	"flag"
 	"time"
-	"./mysql"
-	"./redis"
+	"github.com/nxsre/mysql"
+	"github.com/nxsre/redis"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
